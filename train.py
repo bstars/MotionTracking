@@ -182,7 +182,7 @@ if __name__ == '__main__':
         # train(motion, max_len=max_len, ent_coef=5e-3, steps=3e6, from_last=True) 
 
         # train(motion, max_len=max_len, ent_coef=5e-3, steps=5e6, from_last=True) 
-        train(motion, max_len=max_len, ent_coef=5e-3, steps=5e6, from_last=True) 
+        # train(motion, max_len=max_len, ent_coef=5e-3, steps=5e6, from_last=True) 
         
 
 
@@ -196,5 +196,5 @@ if __name__ == '__main__':
         visualize(
             motion, 
             max_len, 
-            save_gif=True
+            save_gif=False
         )
