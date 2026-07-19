@@ -1,0 +1,9 @@
+.vscode
+
+BeyondMimic_Code/**
+!BeyondMimic_Code/.gitkeep
+
+data/**
+!data/**/
+!data/**/.gitkeep
+
