@@ -9,7 +9,7 @@ Project Structure:
 - ./data: Motion data and robot models
     - ./data/LAFAN1: Humanoid motion retargeted for unitree G1, downloaded from HuggingFace repo lvhaidong/LAFAN1_Retargeting_Dataset
     - ./data/g1: Unitree G1 model, downloaded from [mujoco model gallery](https://github.com/google-deepmind/mujoco_menagerie/tree/main/unitree_g1)
-    ./data/LAFAN1: We will put interpolated motion data here
+    ./data/LAFAN1_interpolated: We will put interpolated motion data here
 - ./BeyondMimic_Code: The [official implementation of BeyondMimic](https://github.com/HybridRobotics/whole_body_tracking)
 - ./*.py: Core implementations
 
